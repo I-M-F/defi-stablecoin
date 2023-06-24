@@ -1,4 +1,18 @@
 
+Africa Reserve Stable Coin is a Stable Reverse Asset that is pegged to the USD
+
+ * @author Matimu Ignatius
+ * The system is designed to be minimal as possible, and have the tokens maintain a 1 token == $1 peg. 
+ * This stablecoin has the properties: 
+ * - Exogenous Collateral 
+ * - Dollar Pegged
+ * - Alogrithmically Stable
+ * 
+ * It is simmilar to DAI if DAI has no gvernance, no fees and was only backed by wETH and wBTC.
+
+
+Upgrade to unpeg to USD
+
 Our Stablecoin Features 
 
 1. (Relative Stability) Anchored or Pegged -> $1.00
