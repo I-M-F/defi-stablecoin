@@ -52,7 +52,14 @@ contract Invariants is StdInvariant, Test {
         console.log("wethValue: ", wethValue);
         console.log("wbtcValue: ", wbtcValue);
         console.log("totalSupply: ", totalSupply);
+        console.log("Times mint called ", handler.timesMintIsCalled());
 
         assert(wethValue + wbtcValue >= totalSupply);
+    }
+
+    function invariant_gettersShouldNotRevert() public view {
+        engine.getLiquidationBonus();
+        engine.getPrecision();
+
     }
 }
